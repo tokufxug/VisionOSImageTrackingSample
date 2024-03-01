@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A57889A2B91E26300B1B5F1 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1A5788992B91E26300B1B5F1 /* RealityKitContent */; };
+		1A57889C2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57889B2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift */; };
+		1A57889E2B91E26300B1B5F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57889D2B91E26300B1B5F1 /* ContentView.swift */; };
+		1A5788A02B91E26300B1B5F1 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57889F2B91E26300B1B5F1 /* ImmersiveView.swift */; };
+		1A5788A22B91E26400B1B5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5788A12B91E26400B1B5F1 /* Assets.xcassets */; };
+		1A5788A52B91E26400B1B5F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5788A42B91E26400B1B5F1 /* Preview Assets.xcassets */; };
+		1A5788B02B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5788AF2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5788AC2B91E26400B1B5F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A57888C2B91E26300B1B5F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5788932B91E26300B1B5F1;
+			remoteInfo = VisionOSImageTrackingSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5788942B91E26300B1B5F1 /* VisionOSImageTrackingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionOSImageTrackingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5788982B91E26300B1B5F1 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		1A57889B2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSImageTrackingSampleApp.swift; sourceTree = "<group>"; };
+		1A57889D2B91E26300B1B5F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A57889F2B91E26300B1B5F1 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		1A5788A12B91E26400B1B5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A5788A42B91E26400B1B5F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A5788A62B91E26400B1B5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5788AB2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSImageTrackingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5788AF2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSImageTrackingSampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5788912B91E26300B1B5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A57889A2B91E26300B1B5F1 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5788A82B91E26400B1B5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A57888B2B91E26300B1B5F1 = {
+			isa = PBXGroup;
+			children = (
+				1A5788962B91E26300B1B5F1 /* VisionOSImageTrackingSample */,
+				1A5788972B91E26300B1B5F1 /* Packages */,
+				1A5788AE2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests */,
+				1A5788952B91E26300B1B5F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A5788952B91E26300B1B5F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5788942B91E26300B1B5F1 /* VisionOSImageTrackingSample.app */,
+				1A5788AB2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5788962B91E26300B1B5F1 /* VisionOSImageTrackingSample */ = {
+			isa = PBXGroup;
+			children = (
+				1A57889B2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift */,
+				1A57889D2B91E26300B1B5F1 /* ContentView.swift */,
+				1A57889F2B91E26300B1B5F1 /* ImmersiveView.swift */,
+				1A5788A12B91E26400B1B5F1 /* Assets.xcassets */,
+				1A5788A62B91E26400B1B5F1 /* Info.plist */,
+				1A5788A32B91E26400B1B5F1 /* Preview Content */,
+			);
+			path = VisionOSImageTrackingSample;
+			sourceTree = "<group>";
+		};
+		1A5788972B91E26300B1B5F1 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1A5788982B91E26300B1B5F1 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1A5788A32B91E26400B1B5F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A5788A42B91E26400B1B5F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A5788AE2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A5788AF2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.swift */,
+			);
+			path = VisionOSImageTrackingSampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A5788932B91E26300B1B5F1 /* VisionOSImageTrackingSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5788B32B91E26400B1B5F1 /* Build configuration list for PBXNativeTarget "VisionOSImageTrackingSample" */;
+			buildPhases = (
+				1A5788902B91E26300B1B5F1 /* Sources */,
+				1A5788912B91E26300B1B5F1 /* Frameworks */,
+				1A5788922B91E26300B1B5F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionOSImageTrackingSample;
+			packageProductDependencies = (
+				1A5788992B91E26300B1B5F1 /* RealityKitContent */,
+			);
+			productName = VisionOSImageTrackingSample;
+			productReference = 1A5788942B91E26300B1B5F1 /* VisionOSImageTrackingSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A5788AA2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5788B62B91E26400B1B5F1 /* Build configuration list for PBXNativeTarget "VisionOSImageTrackingSampleTests" */;
+			buildPhases = (
+				1A5788A72B91E26400B1B5F1 /* Sources */,
+				1A5788A82B91E26400B1B5F1 /* Frameworks */,
+				1A5788A92B91E26400B1B5F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5788AD2B91E26400B1B5F1 /* PBXTargetDependency */,
+			);
+			name = VisionOSImageTrackingSampleTests;
+			productName = VisionOSImageTrackingSampleTests;
+			productReference = 1A5788AB2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A57888C2B91E26300B1B5F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1A5788932B91E26300B1B5F1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1A5788AA2B91E26400B1B5F1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1A5788932B91E26300B1B5F1;
+					};
+				};
+			};
+			buildConfigurationList = 1A57888F2B91E26300B1B5F1 /* Build configuration list for PBXProject "VisionOSImageTrackingSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A57888B2B91E26300B1B5F1;
+			productRefGroup = 1A5788952B91E26300B1B5F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5788932B91E26300B1B5F1 /* VisionOSImageTrackingSample */,
+				1A5788AA2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A5788922B91E26300B1B5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5788A52B91E26400B1B5F1 /* Preview Assets.xcassets in Resources */,
+				1A5788A22B91E26400B1B5F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5788A92B91E26400B1B5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5788902B91E26300B1B5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A57889E2B91E26300B1B5F1 /* ContentView.swift in Sources */,
+				1A57889C2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift in Sources */,
+				1A5788A02B91E26300B1B5F1 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5788A72B91E26400B1B5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5788B02B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A5788AD2B91E26400B1B5F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A5788932B91E26300B1B5F1 /* VisionOSImageTrackingSample */;
+			targetProxy = 1A5788AC2B91E26400B1B5F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A5788B12B91E26400B1B5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1A5788B22B91E26400B1B5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		1A5788B42B91E26400B1B5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSImageTrackingSample/Preview Content\"";
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.imagetracking.VisionOSImageTrackingSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		1A5788B52B91E26400B1B5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOSImageTrackingSample/Preview Content\"";
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.imagetracking.VisionOSImageTrackingSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		1A5788B72B91E26400B1B5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.imagetracking.VisionOSImageTrackingSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionOSImageTrackingSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionOSImageTrackingSample";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1A5788B82B91E26400B1B5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ED5R9E794B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.1planet.visionos.sample.imagetracking.VisionOSImageTrackingSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionOSImageTrackingSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionOSImageTrackingSample";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A57888F2B91E26300B1B5F1 /* Build configuration list for PBXProject "VisionOSImageTrackingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5788B12B91E26400B1B5F1 /* Debug */,
+				1A5788B22B91E26400B1B5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5788B32B91E26400B1B5F1 /* Build configuration list for PBXNativeTarget "VisionOSImageTrackingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5788B42B91E26400B1B5F1 /* Debug */,
+				1A5788B52B91E26400B1B5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5788B62B91E26400B1B5F1 /* Build configuration list for PBXNativeTarget "VisionOSImageTrackingSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5788B72B91E26400B1B5F1 /* Debug */,
+				1A5788B82B91E26400B1B5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A5788992B91E26300B1B5F1 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A57888C2B91E26300B1B5F1 /* Project object */;
+}
