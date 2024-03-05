@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A54B88F2B971ADD00D9F892 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A54B88E2B971ADD00D9F892 /* toy_biplane_idle.usdz */; };
 		1A57889A2B91E26300B1B5F1 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1A5788992B91E26300B1B5F1 /* RealityKitContent */; };
 		1A57889C2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57889B2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift */; };
 		1A57889E2B91E26300B1B5F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57889D2B91E26300B1B5F1 /* ContentView.swift */; };
@@ -14,6 +15,7 @@
 		1A5788A22B91E26400B1B5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5788A12B91E26400B1B5F1 /* Assets.xcassets */; };
 		1A5788A52B91E26400B1B5F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5788A42B91E26400B1B5F1 /* Preview Assets.xcassets */; };
 		1A5788B02B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5788AF2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.swift */; };
+		1A5788BA2B91E2CF00B1B5F1 /* ImageTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5788B92B91E2CF00B1B5F1 /* ImageTrackingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A54B88E2B971ADD00D9F892 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
 		1A5788942B91E26300B1B5F1 /* VisionOSImageTrackingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionOSImageTrackingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5788982B91E26300B1B5F1 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		1A57889B2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSImageTrackingSampleApp.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		1A5788A62B91E26400B1B5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A5788AB2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSImageTrackingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5788AF2B91E26400B1B5F1 /* VisionOSImageTrackingSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSImageTrackingSampleTests.swift; sourceTree = "<group>"; };
+		1A5788B92B91E2CF00B1B5F1 /* ImageTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 		1A5788962B91E26300B1B5F1 /* VisionOSImageTrackingSample */ = {
 			isa = PBXGroup;
 			children = (
+				1A54B88E2B971ADD00D9F892 /* toy_biplane_idle.usdz */,
 				1A57889B2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift */,
 				1A57889D2B91E26300B1B5F1 /* ContentView.swift */,
 				1A57889F2B91E26300B1B5F1 /* ImmersiveView.swift */,
+				1A5788B92B91E2CF00B1B5F1 /* ImageTrackingView.swift */,
 				1A5788A12B91E26400B1B5F1 /* Assets.xcassets */,
 				1A5788A62B91E26400B1B5F1 /* Info.plist */,
 				1A5788A32B91E26400B1B5F1 /* Preview Content */,
@@ -199,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5788A52B91E26400B1B5F1 /* Preview Assets.xcassets in Resources */,
+				1A54B88F2B971ADD00D9F892 /* toy_biplane_idle.usdz in Resources */,
 				1A5788A22B91E26400B1B5F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +227,7 @@
 				1A57889E2B91E26300B1B5F1 /* ContentView.swift in Sources */,
 				1A57889C2B91E26300B1B5F1 /* VisionOSImageTrackingSampleApp.swift in Sources */,
 				1A5788A02B91E26300B1B5F1 /* ImmersiveView.swift in Sources */,
+				1A5788BA2B91E2CF00B1B5F1 /* ImageTrackingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

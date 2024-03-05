@@ -19,12 +19,12 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
+            Model3D(named: "toy_biplane_idle")
                 .padding(.bottom, 50)
 
-            Text("Hello, world!")
+            Text("Image Tracking Sample")
 
-            Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
+            Toggle("Image Tracking Immersive Space", isOn: $showImmersiveSpace)
                 .toggleStyle(.button)
                 .padding(.top, 50)
         }

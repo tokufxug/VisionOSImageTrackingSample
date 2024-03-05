@@ -15,7 +15,7 @@ struct VisionOSImageTrackingSampleApp: App {
         }
 
         ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
+            ImageTrackingView()
         }
     }
 }
